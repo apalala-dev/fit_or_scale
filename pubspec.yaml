@@ -1,6 +1,6 @@
 name: fit_or_scale
 description: Scale down the wrapped widget if its available space is below minWidth or minHeight provided values.
-version: 0.0.1
+version: 0.0.1+1
 homepage: https://github.com/apalala-dev/fit_or_scale
 
 environment:

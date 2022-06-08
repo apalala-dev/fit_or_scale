@@ -1,3 +1,17 @@
+## Discouraged
+
+This package was an attempt to solve a problem that was already solved by the `FittedBox` widget.
+Just use `FittedBox` instead:
+
+``` dart
+FittedBox(
+    fit: BoxFit.scaleDown,
+    child: // widget to auto scale
+)
+```
+
+## Original description
+
 Wrap your widgets with `FitOrScale` to make them scale down if their available space is below a `minWidth` and/or a `minHeight`.
 
 
